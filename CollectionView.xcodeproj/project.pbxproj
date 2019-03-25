@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F242EEE2248BDDF00E0C761 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F242EED2248BDDF00E0C761 /* ChangeViewController.swift */; };
 		4F4C0C8B2240DC12001B8323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C0C8A2240DC12001B8323 /* AppDelegate.swift */; };
 		4F4C0C8D2240DC12001B8323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C0C8C2240DC12001B8323 /* ViewController.swift */; };
 		4F4C0C902240DC12001B8323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C0C8E2240DC12001B8323 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F242EED2248BDDF00E0C761 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
 		4F4C0C872240DC12001B8323 /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4C0C8A2240DC12001B8323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F4C0C8C2240DC12001B8323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F242EEC2248BDAE00E0C761 /* ChangeContoller */ = {
+			isa = PBXGroup;
+			children = (
+				4F242EED2248BDDF00E0C761 /* ChangeViewController.swift */,
+			);
+			path = ChangeContoller;
+			sourceTree = "<group>";
+		};
 		4F4C0C7E2240DC12001B8323 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		4F4C0C892240DC12001B8323 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				4F242EEC2248BDAE00E0C761 /* ChangeContoller */,
 				4F5BE6CA22424385007314A1 /* MainController */,
 				4F5BE6C922424372007314A1 /* Supporting Files */,
 				4F5BE6C822424354007314A1 /* TypeController */,
@@ -183,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F242EEE2248BDDF00E0C761 /* ChangeViewController.swift in Sources */,
 				4F5BE6C62242434E007314A1 /* EditCollectionViewCell.swift in Sources */,
 				4F5BE6C3224242BB007314A1 /* TypeViewController.swift in Sources */,
 				4F4C0C8D2240DC12001B8323 /* ViewController.swift in Sources */,

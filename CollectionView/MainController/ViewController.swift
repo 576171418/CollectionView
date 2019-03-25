@@ -53,7 +53,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        self.show(self.storyboard?.instantiateViewController(withIdentifier: "TypeViewController") as! TypeViewController, sender: nil)
+        if indexPath.item == 1 {
+            self.show(self.storyboard?.instantiateViewController(withIdentifier: "TypeViewController") as! TypeViewController, sender: nil)
+        }
     }
 
     func armColor() -> UIColor {
